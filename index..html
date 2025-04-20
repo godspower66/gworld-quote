@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GWorld Quote</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fdf6f0;
+      color: #333;
+    }
+    header {
+      background: #6a1b9a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #8e24aa;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quote-container {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .search-bar {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .translator {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .comment-box {
+      margin-top: 2rem;
+    }
+    footer {
+      background: #6a1b9a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to GWorld Quote</h1>
+    <p>Grab your quote of the day — short, strong and uplifting</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Inspirational</a>
+    <a href="#">Love</a>
+    <a href="#">Motivational</a>
+  </nav>
+
+  <div class="quote-container">
+    <input type="text" class="search-bar" placeholder="Search for a quote...">
+    <h2>Quote of the Day</h2>
+    <blockquote>
+      “In the middle of every difficulty lies opportunity.” — Albert Einstein
+    </blockquote>
+
+    <div class="comment-box">
+      <h3>Leave a Comment</h3>
+      <textarea rows="4" style="width:100%;" placeholder="Your thoughts..."></textarea><br>
+      <button onclick="alert('Comment submitted and sent to admin email!')">Submit</button>
+    </div>
+
+    <div class="translator">
+      <h4>🌍 Translate this site</h4>
+      <p>[Google Translate integration placeholder]</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 GWorld Quote. All rights reserved.
+  </footer>
+</body>
+</html>
